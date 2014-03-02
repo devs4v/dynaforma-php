@@ -1,0 +1,41 @@
+body{
+	margin:0;
+	padding: 0;
+}
+#header{
+	width: 100%;
+	background-color: #363636;
+	overflow: auto;
+}
+#menu{
+	width: 1000px;
+	margin: 0 auto;
+}
+#logo{
+	float: right;
+	margin-right: 10px;
+	color: #0381cc;
+	font-size: 40px;
+	font-family: verdana, sans-serif;
+}
+#logo .sub{
+	font-family: "trebuchet ms", sans-serif;
+	font-size: 18px;
+	font-style: italic;
+	text-align: right;
+}
+.header-menu-item{
+	color: #0381cc;
+	font-family: verdana, sans-serif;
+	font-size: 24px;
+	float: left;
+	padding: 15px 15px;
+	text-align: center;
+	cursor: pointer;
+}
+#content{
+	width: 1000px;
+}
+#footer{
+	width: 100%;
+}
