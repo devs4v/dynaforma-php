@@ -6,7 +6,7 @@ require("../res/funcs.php");
 <!DOCTYPE html>
 <html>
 	<head>
-		<title>Welcome to Dynaforma</title>
+		<title>Dynaforma | Beautiful Dynamic Forms</title>
 		<meta charset="UTF-8"/>
 		<meta name="author" content="Shivam Chaturvedi -- The Smarter Techie"/>
 		<meta name="keywords" content="beautiful dynamic forms"/>
