@@ -12,10 +12,13 @@ require("../res/funcs.php");
 		<meta name="keywords" content="beautiful dynamic forms"/>
 		<link rel="stylesheet" href="../css/main.css"/>
 		<link rel="stylesheet" href="create.css"/>
-		<script type="text/javascript" src="../js/main.js"></script>
+		
 		<!-- Plugins -->
 		<script type="text/javascript" src="../js/jquery.js"></script>
 		<script type="text/javascript" src="../js/jquery.color-2.1.2.min.js"></script>
+		<!-- Custom scripts-->
+		<script type="text/javascript" src="../js/main.js"></script>
+		<script type="text/javascript" src="create.js"></script>
 	</head>
 	<body>
 		<div id="container">
