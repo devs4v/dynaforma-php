@@ -48,7 +48,7 @@ require("../res/funcs.php");
 					<div id="questions">
 						<div class="question">
 							<div class="delete" title="Delete this Question">Delete</div>
-							<div class="q-title">Question 1</div>
+							<div class="q-title"><input type="text" value="Question 1"/></div>
 							<div class="q-detail">The abstract for the question</div>
 							<div class="q-options">
 								<div class="q-text">
@@ -59,7 +59,7 @@ require("../res/funcs.php");
 						
 						<div class="question">
 							<div class="delete" title="Delete this Question">Delete</div>
-							<div class="q-title">Question 2</div>
+							<div class="q-title"><input type="text" value="Question 2"/></div>
 							<div class="q-detail">The abstract for the question</div>
 							<div class="q-options">
 								<div class="q-textarea">
@@ -70,7 +70,7 @@ require("../res/funcs.php");
 						
 						<div class="question">
 							<div class="delete" title="Delete this Question">Delete</div>
-							<div class="q-title">Question 3</div>
+							<div class="q-title"><input type="text" value="Question 3"/></div>
 							<div class="q-detail">The abstract for the question</div>
 							<div class="q-options">
 								<div class="q-checkboxes">
@@ -82,7 +82,7 @@ require("../res/funcs.php");
 						
 						<div class="question">
 							<div class="delete" title="Delete this Question">Delete</div>
-							<div class="q-title">Question 4</div>
+							<div class="q-title"><input type="text" value="Question 4"/></div>
 							<div class="q-detail">The abstract for the question</div>
 							<div class="q-options">
 								<div class="q-optionbuttons">

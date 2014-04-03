@@ -8,16 +8,5 @@ function init(){
 	});
 
 	questioneditor();
-	$(".q-title").prop("disabled", true);
-}
-
-function questioneditor(){
-	$('.q-title').click(function(){
-		alert('Question clicked');
-		this.removeAttr('disabled', false);
-		this.focus();
-		this.blur(function(){
-			this.prop('disabled', true);
-		});
-	});
+	$(".q-title").find('input').prop("disabled", true);
 }
