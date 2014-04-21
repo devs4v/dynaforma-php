@@ -2,38 +2,16 @@
 //	index.php
 require("../res/funcs.php");
 ?>
-
 <!DOCTYPE html>
 <html>
 	<head>
-		<title>Dynaforma | Beautiful Dynamic Forms</title>
-		<meta charset="UTF-8"/>
-		<meta name="author" content="Shivam Chaturvedi -- The Smarter Techie"/>
-		<meta name="keywords" content="beautiful dynamic forms"/>
-		<link rel="stylesheet" href="../css/main.css"/>
-		<link rel="stylesheet" href="create.css"/>
-		
-		<!-- Plugins -->
-		<script type="text/javascript" src="../js/jquery.js"></script>
-		<script type="text/javascript" src="../js/jquery.color-2.1.2.min.js"></script>
-		<!-- Custom scripts-->
-		<script type="text/javascript" src="../js/main.js"></script>
-		<script type="text/javascript" src="create.js"></script>
+		<title>DynaForma | Create Form</title>
+		<?php comheaders(); ?>
+		<link rel="stylesheet" type="text/css" href="create.css"/>
 	</head>
 	<body>
-		<div id="container">
-			<div id="header">
-				<div id="menu">
-					<div class="header-menu-item">Home<br/>&nbsp;</div>
-					<div class="header-menu-item">Create<br/>Form</div>
-					<div class="header-menu-item">Edit<br/>Form</div>
-					<div class="header-menu-item">Contact<br/>Us</div>
-					<div id="logo">
-						<div>DynaForma</div>
-						<div class="sub">Beautiful Dynamic Forms</div>
-					</div>
-				</div>
-			</div>
+		<?php navbar();?>
+		<div class="container">
 			<div id="content">
 				<div id="tools">
 					<div id="bgcolor"><input type="button" value="Add a Question"/></div>
@@ -47,7 +25,7 @@ require("../res/funcs.php");
 					</div>
 					<div id="questions">
 						<div class="question">
-							<div class="delete" title="Delete this Question">Delete</div>
+							<div class="delete btn" title="Delete this Question">Delete</div>
 							<div class="q-title"><input type="text" value="Question 1"/></div>
 							<div class="q-detail">The abstract for the question</div>
 							<div class="q-options">
@@ -58,7 +36,7 @@ require("../res/funcs.php");
 						</div>
 						
 						<div class="question">
-							<div class="delete" title="Delete this Question">Delete</div>
+							<div class="delete btn" title="Delete this Question">Delete</div>
 							<div class="q-title"><input type="text" value="Question 2"/></div>
 							<div class="q-detail">The abstract for the question</div>
 							<div class="q-options">
@@ -111,8 +89,6 @@ require("../res/funcs.php");
 						</div>
 					</div>
 				</div>
-			</div>
-			<div id="footer">
 			</div>
 		</div>
 	</body>

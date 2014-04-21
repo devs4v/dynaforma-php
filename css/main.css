@@ -1,41 +1,23 @@
 body{
-	margin:0;
+	margin-top: 60px;
 	padding: 0;
+	background-color: #2F2F2F;
 }
-#header{
-	width: 100%;
-	background-color: #363636;
-	overflow: auto;
+.brand{
+	font-family: 'Share Tech Mono',  sans-serif;
+	letter-spacing: 1px;
 }
-#menu{
-	width: 1000px;
-	margin: 0 auto;
+.row{
+	margin-top: 20px;
+	color: #E2E2E2;
 }
-#logo{
-	float: right;
-	margin-right: 10px;
-	color: #0381cc;
-	font-size: 40px;
-	font-family: verdana, sans-serif;
+.v-center {
+    display:table !important;
+    /*border:2px solid gray;*/
+    height:300px;
 }
-#logo .sub{
-	font-family: "trebuchet ms", sans-serif;
-	font-size: 18px;
-	font-style: italic;
-	text-align: right;
-}
-.header-menu-item{
-	color: #0381cc;
-	font-family: verdana, sans-serif;
-	font-size: 24px;
-	float: left;
-	padding: 15px 15px;
-	text-align: center;
-	cursor: pointer;
-}
-#content{
-	width: 1000px;
-}
-#footer{
-	width: 100%;
+.v-center > div{
+    display:table-cell;
+    vertical-align:middle;
+    text-align:center;
 }

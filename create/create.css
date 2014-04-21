@@ -1,70 +1,54 @@
-#content{
-	width: 1000px;
-	margin: 0 auto;
-	/*overflow: auto;*/
-	position: relative;
-}
+
 #tools{
-	border-bottom: 1px solid #000;
-	border-top: 1px solid #000;
-	border-right: 1px solid #000;
-	background-color: #EEE;
-	color: #333;
-	position: absolute;
-	right: -150px;
-	top: 100px;
+	border-bottom: 1px solid #000;border-top: 1px solid #000;border-right: 1px solid #000;
+	background-color: #EEE;color: #333;
+	position: absolute;right: -150px;top: 100px;
 	width: 149px;
 }
 #form{
-	border-left: 2px solid #363636;
-	border-right: 2px solid #363636;
+	border: 5px solid #1F1F1F;border-radius: 5px;
 	background-color: #d7d7d7;
 	/*margin: 0 auto 0 auto;*/
 }
 #form-header{
-	border-bottom: 2px solid black;
-	padding-top: 30px;
-	background-color: #A31919;
+	padding: 30px 15px;
+	background-color: #1F1F1F;
 }
 #form-title{
-	font-size: 40px;
+	font-size: 40px;font-family: "trebuchet ms", sans-serif;font-weight: bold;
 	text-align: left;
-	font-weight: bold;
-	padding-left: 20px;
-	padding-bottom: 5px;
-	font-family: "trebuchet ms", sans-serif;
+	padding-left: 20px;padding-bottom: 5px;
+	color: #F1F1F1;
 }
 #questions{
 	margin: 0 15px;
-	padding-top: 5px;
 }
 .question, .question-sample{
-	border: 1px solid #A31919;
 	border-radius: 5px;
-	margin: 5px 0 5px 0;
+	margin: 15px 0;
 	padding: 5px;
 	position: relative;
-	background-color: #CCC;
+	background-color: #EEE;
+	box-shadow: 0 0 5px #888;
+}
+.question .delete, .question .btn{
+	visibility: hidden;
+	position: absolute;
+	right: 5px;
+	top: 5px;
+	cursor: pointer;
+}
+.question:hover .delete, .question:hover .btn{
+	visibility: visible;
 }
 .question-sample{
 	border: 2px dotted #A31919;
 	opacity: 0.8;
 }
-.delete{
-	position: absolute;
-	right: 5px;
-	top: 0px;
-	border-bottom: 1px solid black;
-	border-left: 1px solid black;
-	border-right: 1px solid black;
-	background-color: #FFF;
-	padding: 0px 3px;
-	cursor: pointer;
-}
+
 .q-title input, .q-title-sample input, .q-title-sample a{
 	font-size: 24px;
-	background-color: #CCC;
-	color: #222;
+	background-color: #CCC;color: #222;
 	text-decoration: none;
 	border: none;
 }
@@ -79,12 +63,12 @@
 	text-align: center;
 }
 #form-footer{
-	background-color: #520C0C;
+	background-color: #1F1F1F;
 	font-size: 20px;
 	color: #CCC;
-	border-top: 2px solid #000;
 	padding: 10px 15px;
 }
 #powermsg{
-	float: right;	
+	float: right;
+	font-size: small;	
 }
